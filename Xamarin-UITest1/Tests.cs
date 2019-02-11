@@ -11,6 +11,7 @@ namespace Xamarin_UITest1
     [TestFixture(Platform.iOS)]
     public class Tests
     {
+        private const object Platform;
         IApp app;
         Platform platform;
 

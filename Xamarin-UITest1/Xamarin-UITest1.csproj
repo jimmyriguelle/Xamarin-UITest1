@@ -35,6 +35,12 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppResult.cs" />
+    <Compile Include="IApp.cs" />
+    <Compile Include="Platform.cs" />
+    <Compile Include="SetUpAttribute.cs" />
+    <Compile Include="TestAttribute.cs" />
+    <Compile Include="TestFixtureAttribute.cs" />
     <Compile Include="Tests.cs" />
     <Compile Include="AppInitializer.cs" />
   </ItemGroup>
